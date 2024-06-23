@@ -12,23 +12,28 @@
   }
   
   .navContainer {
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
   }
   
   .containerGrid {
-    position: fixed;
-    top: 0;
-    width: 100%;
+    /* position: fixed;
+    top: 0; */
+    width: 90%;
+    margin: auto;
     display: grid;
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 20% 80% 20%;
     justify-content: space-around;
     align-items: center;
     background: #fff;
     padding: 20px;
   }
+
+  .containerBurger {
+    transition: background-color 0.3s ease;
+  }
   
   .imageBurger {
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
   }
   
@@ -41,7 +46,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 700;
-    color: #323232;
+    color: #000000;
     cursor: pointer;
   }
   
@@ -53,8 +58,14 @@
     text-decoration: none;
   }
   
-  .contactIcon {
+  .containerLogo {
     cursor: pointer;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
   }
   
   .navOpen {

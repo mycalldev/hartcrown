@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className={styles.navContainer}>
         <div className={styles.containerGrid}>
           
-            <div onClick={() => handleToggle()}>
+            <div onClick={() => handleToggle()} className={styles.containerBurger}>
               <Image
                 src={'/hamburger.png'}
                 width={32}
@@ -35,14 +35,15 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className={styles.contactIcon}>
+          <div className={styles.containerLogo}>
             <Link href="tel:07754987116">
               <Image
-                src={'/logo.png'}
-                width={64}
-                height={64}
+                src={'/HartCrown_Logo_Edited.jpg'}
+                width={236}
+                height={167}
                 alt={'logo'}
                 quality={100}
+                className={styles.logo}
               />
             </Link>
           </div>
