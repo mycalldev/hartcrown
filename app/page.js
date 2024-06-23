@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* CTA */}
       <div className={styles.contactBTNContainer}>
-          <Link href="tel:07976753254" className={styles.linkBTN}>Contact</Link>
+          <Link href="tel:" className={styles.linkBTN}>Contact</Link>
       </div>
 
       <div className={styles.containerAboutUs}>
