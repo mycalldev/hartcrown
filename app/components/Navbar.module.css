@@ -18,10 +18,10 @@
   .containerGrid {
     /* position: fixed;
     top: 0; */
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 20% 80% 20%;
+    grid-template-columns: 20% 60% 20%;
     justify-content: space-around;
     align-items: center;
     background: #fff;
