@@ -28,7 +28,7 @@ export default function Home() {
         alt={'hero image'}
         quality={100}
       />
-      <div className={styles.introText}>HartCrown Construction Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
+      <div className={styles.introText}>HartCrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
       <div className={styles.tagLine}>Groundwork Specialists with over 30 Years Experience</div>
 
       {/* CTA */}
