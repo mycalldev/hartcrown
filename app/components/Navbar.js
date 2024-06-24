@@ -31,7 +31,7 @@ export default function Navbar() {
           
           <div>
             <Link href="/#" className={styles.undreline}>
-              <div className={styles.titleMain}>HARTCROWN CONSTRUCTION</div>
+              <div className={styles.titleMain}>HARTCROWN LTD</div>
             </Link>
           </div>
 
