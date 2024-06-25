@@ -12,9 +12,9 @@ export default function Home() {
       {/* MOBILE HERO */}
       <Image
         className={styles.heroImageMobile}
-        src={'/hero_image.jpg'}
-        width={2304}
-        height={1536}
+        src={'/hero_image_new_build-transformed.jpeg'}
+        width={2912}
+        height={1632}
         alt={'hero image'}
         quality={100}
       />
