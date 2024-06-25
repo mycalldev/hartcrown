@@ -39,7 +39,7 @@ export default function Home() {
       <div className={styles.containerAboutUs}>
         <Image
           className={styles.aboutUs}
-          src={'/about_us.jpg'}
+          src={'/about_us1.jpg'}
           width={1456}
           height={816}
           alt={'About us'}
@@ -48,11 +48,11 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Find out About HartCrown Construction
+        Find out About HartCrown Ltd
       </div>
 
       <div className={styles.contactBTNContainer}>
-          <Link href="/" className={styles.linkBTN}>About</Link>
+          <Link href="/about" className={styles.linkBTN}>About</Link>
       </div>
 
       <div className={styles.containerAboutUs}>
