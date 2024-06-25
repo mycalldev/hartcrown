@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        About HartCrown Ltd
+        About Hartcrown Ltd
       </div>
      
       <div className={styles.introText}>Hartcrown Limited have now been established for 35 years within the London region and surrounding areas, carrying out all aspects of Groundworks and Civil Engineering projects together with 278 works and diversionary road schemes for our core clients with repeat business as our main principal aim and establishing good working relationships. </div>

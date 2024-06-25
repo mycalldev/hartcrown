@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Find out About HartCrown Ltd
+        Find out About Hartcrown Ltd
       </div>
 
       <div className={styles.contactBTNContainer}>
