@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 const roboto = Roboto({ weight: '400', subsets: ["latin"] });
 
 export const metadata = {
-  title: "HartCrown Construction",
+  title: "Hartcrown Ltd",
   description: "Ground Work Specialists",
 };
 
