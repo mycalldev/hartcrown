@@ -29,7 +29,7 @@ export default function Home() {
         quality={100}
       />
       <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
-      <div className={styles.tagLine}>Groundwork Specialists with over 30 Years Experience</div>
+      <div className={styles.tagLine}>Groundwork Specialists with over 35 Years Experience</div>
 
       {/* CTA */}
       <div className={styles.contactBTNContainer}>
