@@ -35,7 +35,7 @@ export default function Home() {
           <Link href="tel:" className={styles.linkBTN}>Contact</Link>
       </div>
       
-      <div className={styles.tagLine}>Groundwork Specialists with over 35 Years Experience</div>
+      <div className={styles.tagLineTop}>Groundwork Specialists with over 35 Years Experience</div>
 
       
 
@@ -97,7 +97,6 @@ export default function Home() {
           <Link href="/" className={styles.linkBTN}>View</Link>
       </div>
 
-      
     </main>
   )
 }
