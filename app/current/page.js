@@ -10,48 +10,116 @@ export default function Current() {
       <h1 className={styles.tagLineCurrent}>
         Current Projects
       </h1>
+      <div className={styles.introText}>Check out our list of current projects</div>
+      <div className={styles.contactBTNContainer}>
+          <Link href="/" className={styles.linkBTN}>Contact</Link>
+      </div>
     {/* HERO SECTION */}
       {/* MOBILE HERO */}
-      <div className={styles.containerHero}>
-        <Image
-          className={styles.heroImageMobile}
-          src={'/work_images/Current/Manbre_Wharf.PNG'}
-          width={1024}
-          height={800}
-          alt={'Hero Image for Current'}
-          quality={100}
-        />
-      </div>
-     
-      <div className={styles.introText}>Check out our list of current projects</div>
+      <div className={styles.containerProject}>
+        <div className={styles.containerHero}>
+          <Image
+            className={styles.heroImageMobile}
+            src={'/work_images/Current/Manbre_Wharf.PNG'}
+            width={1024}
+            height={800}
+            alt={'Hero Image for Current'}
+            quality={100}
+          />
+        </div>
+        <div className={styles.containerGrid}>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Client:</div>
+            <div className={styles.value}>Kier Construction</div>
+          </div>
 
-      <div className={styles.containerAboutUs}>
-        <Image
-          className={styles.heroImageMobile}
-          src={'/work_images/Current/Marleb.PNG'}
-          width={1024}
-          height={800}
-          alt={'Current Image'}
-          quality={100}
-        />
-      </div>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Project:</div>
+            <div className={styles.value}>Manbre Wharf, Hammersmith</div>
+          </div>
 
-      <div className={styles.introText}>Tell Delux What to say here? This paragraph I think should relate to the image above. Should we put the price of the job? </div>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Value:</div>
+            <div className={styles.value}>£85,000</div>
+          </div>
 
-
-      <div className={styles.containerAboutUs}>
-        <Image
-          className={styles.heroImageMobile}
-          src={'/work_images/Current/Bamfords.PNG'}
-          width={948}
-          height={800}
-          alt={'Current Image'}
-          quality={100}
-        />
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Date:</div>
+            <div className={styles.value}>July Onwards</div>
+          </div>
+        </div>
       </div>
 
-      <div className={styles.introText}>Tell Delux What to say here? This paragraph I think should relate to the image above. Should we put the price of the job?</div>
+      <div className={styles.containerProject}>
+        <div className={styles.containerAboutUs}>
+          <Image
+            className={styles.heroImageMobile}
+            src={'/work_images/Current/Marleb.PNG'}
+            width={1024}
+            height={800}
+            alt={'Current Image'}
+            quality={100}
+          />
+        </div>
+        <div className={styles.containerGrid}>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Client:</div>
+            <div className={styles.value}>Kier Construction</div>
+          </div>
 
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Project:</div>
+            <div className={styles.value}>Marylebone Square</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Value:</div>
+            <div className={styles.value}>£1,42 million</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Date:</div>
+            <div className={styles.value}>Ongoing</div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.containerProject}>
+        <div className={styles.containerAboutUs}>
+          <Image
+            className={styles.heroImageMobile}
+            src={'/work_images/Current/Bamfords.PNG'}
+            width={948}
+            height={800}
+            alt={'Current Image'}
+            quality={100}
+          />
+        </div>
+
+        <div className={styles.containerGrid}>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Client:</div>
+            <div className={styles.value}>Blenheim House</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Project:</div>
+            <div className={styles.value}>Marylebone House</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Value:</div>
+            <div className={styles.value}>£2 million</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Date:</div>
+            <div className={styles.value}>Ongoing</div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.containerProject}>
       <div className={styles.containerAboutUs}>
         <Image
           className={styles.heroImageMobile}
@@ -63,12 +131,29 @@ export default function Current() {
         />
       </div>
 
-      <div className={styles.introText}>Tell Delux What to say here? This paragraph I think should relate to the image above. Should we put the price of the job?</div>
+      <div className={styles.containerGrid}>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Client:</div>
+            <div className={styles.value}>Kier Construction</div>
+          </div>
 
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Project:</div>
+            <div className={styles.value}>Park Street SE1</div>
+          </div>
 
-      <div className={styles.contactBTNContainer}>
-          <Link href="/" className={styles.linkBTN}>Contact</Link>
-      </div> 
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Value:</div>
+            <div className={styles.value}>£225k</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Date:</div>
+            <div className={styles.value}>Ongoing</div>
+          </div>
+        </div>
+      </div>
+
     </main>
   )
 }

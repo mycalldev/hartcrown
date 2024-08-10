@@ -26,8 +26,10 @@
     color: #fff;
 }
 
-.containerHero {
-   
+.containerProject {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid lightgrey;
 }
 
 
@@ -37,9 +39,30 @@
 }
 
 .introText {
-width: 80%;
-margin: 20px auto;
-line-height: 1.5;
-text-align: center;
-color: #323232;
+  width: 80%;
+  margin: 20px auto;
+  line-height: 1.5;
+  text-align: center;
+  color: #323232;
+}
+
+.containerGrid {
+  margin: 20px auto 30px auto;
+}
+
+.key{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #292929;
+}
+
+.value {
+  line-height: 1.5;
+  color: #323232;
+}
+
+.containerTextProject {
+  margin: 5px 40px;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }

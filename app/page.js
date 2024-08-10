@@ -22,9 +22,9 @@ export default function Home() {
       {/* DESKTOP HERO */}
       <Image
         className={styles.heroImageDesktop}
-        src={'/hero_desktop.jpg'}
-        width={1456}
-        height={557}
+        src={'/hero_image_new_build-transformed.jpeg'}
+        width={2912}
+        height={1632}
         alt={'hero image'}
         quality={100}
       />
@@ -97,41 +97,7 @@ export default function Home() {
           <Link href="/" className={styles.linkBTN}>View</Link>
       </div>
 
-      <div className={styles.containerGridAcc}>
-      <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc1.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        
-        <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc3.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        <Image
-        className={styles.imageAcc}
-        src={'/accreditations/acc4.png'}
-        width={600}
-        height={600}
-        alt={'About us'}
-        quality={100}
-      />
-      <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc2.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-      </div>
+      
     </main>
   )
 }
