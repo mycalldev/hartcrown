@@ -29,12 +29,15 @@ export default function Home() {
         quality={100}
       />
       <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
-      <div className={styles.tagLine}>Groundwork Specialists with over 35 Years Experience</div>
-
+      
       {/* CTA */}
       <div className={styles.contactBTNContainer}>
           <Link href="tel:" className={styles.linkBTN}>Contact</Link>
       </div>
+      
+      <div className={styles.tagLine}>Groundwork Specialists with over 35 Years Experience</div>
+
+      
 
       <div className={styles.containerAboutUs}>
         <Image
@@ -55,7 +58,27 @@ export default function Home() {
           <Link href="/about" className={styles.linkBTN}>About</Link>
       </div>
 
-      <div className={styles.containerAboutUs}>
+
+      {/* Current Projects */}
+      <div className={styles.containerCurrentProjects}>
+        <Image
+          className={styles.aboutUs}
+          src={'/work_images/Current/Manbre_Wharf.PNG'}
+          width={1024}
+          height={800}
+          alt={'About us'}
+          quality={100}
+        />
+      </div>
+
+      <div className={styles.tagLine}>
+        Current Projects 
+      </div>
+      <div className={styles.contactBTNContainer}>
+          <Link href="/current" className={styles.linkBTN}>View</Link>
+      </div>
+
+      <div className={styles.containerPreviousProjects}>
         <Image
           className={styles.aboutUs}
           src={'/signiture_london.jpg'}
@@ -67,7 +90,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Check Out our Project Portfolio 
+        Previous Projects 
       </div>
 
       <div className={styles.contactBTNContainer}>

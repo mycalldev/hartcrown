@@ -13,9 +13,14 @@
   display: none;
 }
 
-.containerAboutUs {
+.containerCurrentProjects {
+  margin-top: 60px;
   border-radius: 22px;
+}
 
+.containerPreviousProjects {
+  margin-top: 60px;
+  border-radius: 22px;
 }
 
 .aboutUs {
