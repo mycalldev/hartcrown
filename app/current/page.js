@@ -12,7 +12,7 @@ export default function Current() {
       </h1>
       <div className={styles.introText}>Check out our list of current projects</div>
       <div className={styles.contactBTNContainer}>
-          <Link href="/" className={styles.linkBTN}>Contact</Link>
+          <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
     {/* HERO SECTION */}
       {/* MOBILE HERO */}

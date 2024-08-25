@@ -3,17 +3,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './contact.module.css'
 
-export default function Contact() {
+export default function Sponsership() {
   return (
     <div>
       {/* <Meta /> */}
       <div>
-        <h1 className={styles.headerTitle}>HARTCROWN LTD CONTACT</h1>
+        <h1 className={styles.headerTitle}>HARTCROWN LTD SPONSERSHIP</h1>
       </div>
 
       <Image
           className={styles.heroImageMobile}
-          src={'/image_contact.png'}
+          src={'/sponserHero.png'}
           width={1456}
           height={816}
           alt={'contact image'}
@@ -21,14 +21,12 @@ export default function Contact() {
       />
 
       <div className={styles.contactText}>
-        At Hartcrown Ltd, we are committed to bringing your vision to life 
-        with exceptional craftsmanship and a dedication to quality. Whether you're planning a residential build, a commercial project, or a renovation, our experienced team is here to guide you every step of the way. We pride ourselves on our attention to detail, clear communication, and personalized service. Reach out to us today to discuss your next project, 
-        and let's build something remarkable together.
+        This is the sponsership section that requires some text
       </div>
 
       {/* BTN */}
       <div className={styles.heroBtn}>
-        <Link href="tel:02072529380" className={styles.linkBTN}>CALL NOW</Link>
+        <Link href="tel:07889029855" className={styles.linkBTN}>CALL NOW</Link>
       </div>
       <div className={styles.heroBtn}>
         <Link

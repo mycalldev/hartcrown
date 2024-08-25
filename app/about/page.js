@@ -45,7 +45,7 @@ export default function About() {
       </div>
 
       <div className={styles.contactBTNContainer}>
-          <Link href="/" className={styles.linkBTN}>Contact</Link>
+          <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div> 
     </main>
   )

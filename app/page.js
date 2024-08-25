@@ -32,7 +32,7 @@ export default function Home() {
       
       {/* CTA */}
       <div className={styles.contactBTNContainer}>
-          <Link href="tel:" className={styles.linkBTN}>Contact</Link>
+          <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
       
       <div className={styles.tagLineTop}>Groundwork Specialists with over 35 Years Experience</div>
@@ -92,10 +92,47 @@ export default function Home() {
       <div className={styles.tagLine}>
         Previous Projects 
       </div>
-
       <div className={styles.contactBTNContainer}>
           <Link href="/" className={styles.linkBTN}>View</Link>
       </div>
+
+      <div className={styles.containerPreviousProjects}>
+        <Image
+          className={styles.aboutUs}
+          src={'/sponserHero.jpg'}
+          width={1456}
+          height={816}
+          alt={'Sponsership Image'}
+          quality={100}
+        />
+      </div>
+
+      <div className={styles.tagLine}>
+        Sponsership
+      </div>
+      <div className={styles.contactBTNContainer}>
+          <Link href="/sponsership" className={styles.linkBTN}>View</Link>
+      </div>
+
+      <div className={styles.containerPreviousProjects}>
+        <Image
+          className={styles.aboutUs}
+          src={'/image_contact.png'}
+          width={1456}
+          height={816}
+          alt={'contact image'}
+          quality={100}
+        />
+      </div>
+
+      <div className={styles.tagLine}>
+        Contact
+      </div>
+      <div className={styles.contactBTNContainer}>
+          <Link href="/contact" className={styles.linkBTN}>View</Link>
+      </div>
+
+      
 
     </main>
   )

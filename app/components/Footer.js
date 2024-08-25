@@ -78,6 +78,8 @@ export default function Footer() {
         <div className={styles.contentAddress}>3 Mantle Road, London SE4 2DU</div>
       </div>
 
+      <div className={styles.number}>0207 252 9380</div>
+
         </main>
     )
 } 
