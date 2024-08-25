@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from './contact.module.css'
+import styles from './sponsership.module.css'
 
 export default function Sponsership() {
   return (
@@ -12,8 +12,8 @@ export default function Sponsership() {
       </div>
 
       <Image
-          className={styles.heroImageMobile}
-          src={'/sponserHero.png'}
+          className={styles.heroSponser}
+          src={'/sponserHero.jpg'}
           width={1456}
           height={816}
           alt={'contact image'}
@@ -21,12 +21,56 @@ export default function Sponsership() {
       />
 
       <div className={styles.contactText}>
-        This is the sponsership section that requires some text
+        Hartcrown Ltd are proud sponsers of Millwall FC. 
+        Below are a few of the images taken on days out for the team at Hartcrown. 
+        We are greatful to Millwall FC and all their team for our collaboration.
+      </div>
+
+      <div className={styles.tagMillwall}>'Come on The Millwall'</div>
+
+
+      <div className={styles.containerGrid}>
+        <Image
+            className={styles.sponserImage}
+            src={'/sponser1.jpg'}
+            width={2016}
+            height={1512}
+            alt={'sponser image'}
+            quality={100}
+        />
+
+        <Image
+            className={styles.sponserImage}
+            src={'/sponser2.jpg'}
+            width={2016}
+            height={1512}
+            alt={'sponser image'}
+            quality={100}
+        />
+
+        <Image
+            className={styles.sponserImage}
+            src={'/sponser3.jpg'}
+            width={2016}
+            height={1512}
+            alt={'sponser image'}
+            quality={100}
+        />
+
+        <Image
+            className={styles.sponserImage}
+            src={'/sponserName.jpg'}
+            width={2016}
+            height={1512}
+            alt={'sponser image'}
+            quality={100}
+        />
+
       </div>
 
       {/* BTN */}
       <div className={styles.heroBtn}>
-        <Link href="tel:07889029855" className={styles.linkBTN}>CALL NOW</Link>
+        <Link href="tel:0207 252 9380" className={styles.linkBTN}>CALL NOW</Link>
       </div>
       <div className={styles.heroBtn}>
         <Link
@@ -36,7 +80,7 @@ export default function Sponsership() {
           WHATSAPP
         </Link>
       </div>
-      <div className={styles.heroBtnDesktop}>07889 029 855</div>
+      <div className={styles.heroBtnDesktop}>0207 252 9380</div>
     </div>
   )
 }
