@@ -1,12 +1,15 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../page.module.css'
+import styles from './about.module.css'
 
 export default function About() {
 
   return (
     <main className={styles.main}>
+       <h1 className={styles.tagLineCurrent}>
+        About Hartcrown Ltd
+      </h1>
 
     {/* HERO SECTION */}
       {/* MOBILE HERO */}
@@ -20,10 +23,6 @@ export default function About() {
           quality={100}
         />
       </div>
-
-      <div className={styles.tagLine}>
-        About Hartcrown Ltd
-      </div>
      
       <div className={styles.introText}>Hartcrown Limited have now been established for 35 years within the London region and surrounding areas, carrying out all aspects of Groundworks and Civil Engineering projects together with 278 works and diversionary road schemes for our core clients with repeat business as our main principal aim and establishing good working relationships. </div>
 
@@ -32,7 +31,7 @@ export default function About() {
       </div>
 
       <Image
-        className={styles.heroImageMobile}
+        className={styles.imageAbout}
         src={'/about_us.jpg'}
         width={1456}
         height={816}
@@ -40,7 +39,7 @@ export default function About() {
         quality={100}
       />
 
-      <div className={styles.introText}>
+      <div className={styles.introText2}>
        Most of our work is negotiated with a selective list of clients that have stayed with us for many years, having built up a good relationship with both senior and site management teams, and we actively assist them both at tender stage through to completion of the contact. Our management team have excellent experience gained over the years, whereby we are able to get involved at an early tender stage to offer value engineering solutions where necessary.
       </div>
 

@@ -72,7 +72,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Current Projects 
+        View our Current Projects 
       </div>
       <div className={styles.contactBTNContainer}>
           <Link href="/current" className={styles.linkBTN}>View</Link>
@@ -90,7 +90,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Previous Projects 
+        View our Previous Projects 
       </div>
       <div className={styles.contactBTNContainer}>
           <Link href="/" className={styles.linkBTN}>View</Link>
@@ -108,7 +108,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Sponsership
+        Who we Sponser
       </div>
       <div className={styles.contactBTNContainer}>
           <Link href="/sponsership" className={styles.linkBTN}>View</Link>
@@ -126,10 +126,10 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Contact
+        Visit our Contact Page
       </div>
       <div className={styles.contactBTNContainer}>
-          <Link href="/contact" className={styles.linkBTN}>View</Link>
+          <Link href="/contact" className={styles.linkBTN}>Contact</Link>
       </div>
 
       

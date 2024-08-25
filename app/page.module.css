@@ -32,8 +32,19 @@
 .introText {
   width: 80%;
   margin: 20px auto;
+  font-size: 1.1rem;
   line-height: 1.5;
   text-align: center;
+  color: #383838;
+}
+
+.tagLineCurrent {
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  background-color: beige;
   color: #383838;
 }
 

@@ -11,9 +11,7 @@ export default function Current() {
         Current Projects
       </h1>
       <div className={styles.introText}>Check out our list of current projects</div>
-      <div className={styles.contactBTNContainer}>
-          <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
-      </div>
+     
     {/* HERO SECTION */}
       {/* MOBILE HERO */}
       <div className={styles.containerProject}>
@@ -152,6 +150,10 @@ export default function Current() {
             <div className={styles.value}>Ongoing</div>
           </div>
         </div>
+      </div>
+
+      <div className={styles.contactBTNContainer}>
+          <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
 
     </main>

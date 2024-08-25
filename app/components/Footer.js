@@ -5,72 +5,75 @@ import styles from './Footer.module.css'
 export default function Footer() {
     return (
         <main>
+          <div className={styles.containerBackground}>
+        <div className={styles.textAccreditations}>Accreditations</div>
         <div className={styles.containerGridAcc}>
-      <Image
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc1.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc3.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          <Image
           className={styles.imageAcc}
-          src={'/accreditations/acc1.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        
-        <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc3.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        <Image
-        className={styles.imageAcc}
-        src={'/accreditations/acc4.png'}
-        width={600}
-        height={600}
-        alt={'About us'}
-        quality={100}
-      />
-      <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc5.png'}
+          src={'/accreditations/acc4.png'}
           width={600}
           height={600}
           alt={'About us'}
           quality={100}
         />
         <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc6.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc7.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc8.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
-        <Image
-          className={styles.imageAcc}
-          src={'/accreditations/acc2.png'}
-          width={600}
-          height={600}
-          alt={'About us'}
-          quality={100}
-        />
+            className={styles.imageAcc}
+            src={'/accreditations/acc5.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc6.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc7.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc8.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+          <Image
+            className={styles.imageAcc}
+            src={'/accreditations/acc2.png'}
+            width={600}
+            height={600}
+            alt={'About us'}
+            quality={100}
+          />
+      </div>
       </div>
       
       <div className={styles.containerAddress}>
@@ -80,6 +83,8 @@ export default function Footer() {
 
       <div className={styles.number}>0207 252 9380</div>
 
-        </main>
+      <div className={styles.bottomLine}></div>
+
+      </main>
     )
 } 

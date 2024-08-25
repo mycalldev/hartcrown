@@ -1,0 +1,119 @@
+.linkBTN {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .heroImageMobile {
+    width: 100%;
+    height: auto;
+  }
+
+  .imageAbout {
+    width: 100%;
+    height: auto;
+  }
+  
+  .heroImageDesktop {
+    display: none;
+  }
+  
+  .containerCurrentProjects {
+    margin-top: 60px;
+    border-radius: 22px;
+  }
+  
+  .containerPreviousProjects {
+    margin-top: 60px;
+    border-radius: 22px;
+  }
+  
+  .aboutUs {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .introText {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #383838;
+  }
+
+  .introText2 {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #383838;
+  }
+  
+  .tagLineCurrent {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: beige;
+    color: #383838;
+  }
+  
+  .tagLineTop {
+    width: 80%;
+    margin: 40px auto 20px auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000;
+    line-height: 1.3;
+  }
+  
+  
+  /* CTA BUTTONS */
+  .contactBTNContainer {
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 200px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 22px;
+    background: #243b8e;
+  }
+  
+  
+  @media(min-width: 768px) {
+
+    .heroImageMobile {
+        padding: 40px;
+    }
+
+    .imageAbout {
+        padding: 40px 100px;  
+    }
+
+    .introText {
+        width: 60%;
+        margin: 40px auto;
+        font-size: 1.3rem;
+    }
+
+    .introText2 {
+        width: 60%;
+        margin: 40px auto 80px auto;
+        font-size: 1.3rem;
+    }
+
+    .aboutUs {
+     display: block;
+     margin: 60px auto 30px auto;
+     width: 60%; 
+    }
+
+    .contactBTNContainer {
+        display: none;
+    }
+  }

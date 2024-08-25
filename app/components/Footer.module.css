@@ -1,3 +1,16 @@
+.containerBackground {
+    background-color: beige;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.textAccreditations {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 20px;
+}
+
 .containerGridAcc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -27,12 +40,20 @@
 
 .contentAddress {
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
 .number {
     text-align: center;
     font-size: 1.3rem;
     margin: 10px auto 40px auto;
+}
+
+.bottomLine {
+    width: 100%;
+    height: 20px;
+    background-color: #243b8e;
 }
 
 @media (min-width: 768px) {
