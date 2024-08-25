@@ -22,10 +22,10 @@ export default function Home() {
       {/* DESKTOP HERO */}
       <Image
         className={styles.heroImageDesktop}
-        src={'/hero_image_new_build-transformed.jpeg'}
+        src={'/hero_image_new_build-desktop.jpeg'}
         width={2912}
-        height={1632}
-        alt={'hero image'}
+        height={1047}
+        alt={'hero image desktop'}
         quality={100}
       />
       <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
