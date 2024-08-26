@@ -62,7 +62,7 @@ export default function Navbar() {
                     <li className={styles.listItem}>About</li>
                   </div>
                 </Link>
-                <Link href={'/'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/previous'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Previous Projects</li>
                   </div>
@@ -101,22 +101,22 @@ export default function Navbar() {
                       <li className={styles.listItem}>Home</li>
                     </div>
                 </Link>
-                <Link href={'/'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/about'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>About</li>
                     </div>
                 </Link>
-                <Link href={'/'} className={styles.linkBTN}>
+                <Link href={'/previous'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Previous Projects</li>
                     </div>
                   </Link>
-                  <Link href={'/'} className={styles.linkBTN}>
+                  <Link href={'/current'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Current Projects</li>
                     </div>
                   </Link>
-                  <Link href={'/'} className={styles.linkBTN} prefetch={true}>
+                  <Link href={'/sponsership'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Sponsership</li>
                     </div>

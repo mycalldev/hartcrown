@@ -30,6 +30,25 @@ export default function Sponsership() {
 
 
       <div className={styles.containerGrid}>
+
+        <Image
+            className={styles.sponserImage}
+            src={'/sponserPDF3.jpg'}
+            width={842}
+            height={593}
+            alt={'sponser image'}
+            quality={100}
+        />
+
+        <Image
+            className={styles.sponserImage}
+            src={'/sponserPDF2.jpg'}
+            width={1001}
+            height={593}
+            alt={'sponser image'}
+            quality={100}
+        />
+
         <Image
             className={styles.sponserImage}
             src={'/sponser1.jpg'}

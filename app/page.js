@@ -93,7 +93,7 @@ export default function Home() {
         View our Previous Projects 
       </div>
       <div className={styles.contactBTNContainer}>
-          <Link href="/" className={styles.linkBTN}>View</Link>
+          <Link href="/previous" className={styles.linkBTN}>View</Link>
       </div>
 
       <div className={styles.containerPreviousProjects}>
