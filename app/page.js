@@ -108,10 +108,10 @@ export default function Home() {
       </div>
 
       <div className={styles.tagLine}>
-        Who we Sponser
+        Who we Sponsor
       </div>
       <div className={styles.contactBTNContainer}>
-          <Link href="/sponsership" className={styles.linkBTN}>View</Link>
+          <Link href="/sponsorship" className={styles.linkBTN}>View</Link>
       </div>
 
       <div className={styles.containerPreviousProjects}>

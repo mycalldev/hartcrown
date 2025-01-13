@@ -31,6 +31,12 @@
     margin-bottom: 20px;
 }
 
+.email {
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
 .textAddress {
     margin: 20px;
     font-size: 1.3rem;

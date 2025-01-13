@@ -82,6 +82,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.number}>0207 252 9380</div>
+      <div className={styles.email}>office@hartcrownltd.co.uk</div>
 
       <div className={styles.bottomLine}></div>
 

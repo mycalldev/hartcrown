@@ -1,18 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from './sponsership.module.css'
+import styles from './sponsorship.module.css'
 
 export default function Sponsership() {
   return (
     <div>
       {/* <Meta /> */}
       <div>
-        <h1 className={styles.headerTitle}>HARTCROWN LTD SPONSERSHIP</h1>
+        <h1 className={styles.headerTitle}>HARTCROWN LTD SPONSORSHIP</h1>
       </div>
 
       <Image
-          className={styles.heroSponser}
+          className={styles.heroSponsor}
           src={'/sponserHero.jpg'}
           width={1456}
           height={816}
@@ -21,7 +21,7 @@ export default function Sponsership() {
       />
 
       <div className={styles.contactText}>
-        Hartcrown Ltd are proud sponsers of Millwall FC. 
+        Hartcrown Ltd are proud sponsors of Millwall FC. 
         Below are a few of the images taken on days out for the team at Hartcrown. 
         We are greatful to Millwall FC and all their team for our collaboration.
       </div>
@@ -32,16 +32,16 @@ export default function Sponsership() {
       <div className={styles.containerGrid}>
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponserPDF3.jpg'}
             width={842}
             height={593}
-            alt={'sponser image'}
+            alt={'sponsor image'}
             quality={100}
         />
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponserPDF2.jpg'}
             width={1001}
             height={593}
@@ -50,7 +50,7 @@ export default function Sponsership() {
         />
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponser1.jpg'}
             width={2016}
             height={1512}
@@ -59,7 +59,7 @@ export default function Sponsership() {
         />
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponser2.jpg'}
             width={2016}
             height={1512}
@@ -68,7 +68,7 @@ export default function Sponsership() {
         />
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponser3.jpg'}
             width={2016}
             height={1512}
@@ -77,7 +77,7 @@ export default function Sponsership() {
         />
 
         <Image
-            className={styles.sponserImage}
+            className={styles.sponsorImage}
             src={'/sponserName.jpg'}
             width={2016}
             height={1512}
