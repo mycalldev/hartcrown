@@ -28,7 +28,7 @@ export default function Home() {
         alt={'hero image desktop'}
         quality={100}
       />
-      <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior craftsmanship.</div>
+      <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior workmanship.</div>
       
       {/* CTA */}
       <div className={styles.contactBTNContainer}>
