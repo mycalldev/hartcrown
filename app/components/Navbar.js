@@ -74,7 +74,7 @@ export default function Navbar() {
                 </Link>
                 <Link href={'/sponsership'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Sponsership</li>
+                    <li className={styles.listItem}>Sponsorship</li>
                   </div>
                 </Link>
                 <Link href={'/contact'} className={styles.linkBTN} prefetch={true}>
@@ -118,7 +118,7 @@ export default function Navbar() {
                   </Link>
                   <Link href={'/sponsership'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Sponsership</li>
+                      <li className={styles.listItem}>Sponsorship</li>
                     </div>
                   </Link>
                   <Link href={'/contact'} className={styles.linkBTN}>
