@@ -38,7 +38,7 @@ export default function Current() {
 
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Value:</div>
-            <div className={styles.value}>£85,000</div>
+            <div className={styles.value}>£150,000</div>
           </div>
 
           <div className={styles.containerTextProject}>

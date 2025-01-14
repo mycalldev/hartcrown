@@ -75,6 +75,12 @@ export default function Footer() {
           />
       </div>
       </div>
+
+      <div className={styles.containerSocial}>
+        <Link href={"https://www.linkedin.com/company/hartcrown-ltd"}>
+          <Image src={'/linkedin.png'} width={'64'} height={'64'} quality={100} alt='Linkedin Icon'/>
+        </Link>
+      </div>
       
       <div className={styles.containerAddress}>
         <div className={styles.textAddress}>Address</div>

@@ -27,6 +27,12 @@
     padding: 10px;
 }
 
+.containerSocial {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .containerAddress {
     margin-bottom: 20px;
 }
