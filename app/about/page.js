@@ -27,7 +27,7 @@ export default function About() {
       <div className={styles.introText}>Hartcrown Limited have now been established for 35 years within the London region and surrounding areas, carrying out all aspects of Groundworks and Civil Engineering projects together with 278 works and diversionary road schemes for our core clients with repeat business as our main principal aim and establishing good working relationships. </div>
 
       <div className={styles.introText}>
-       Contract values that we would be happy to undertake range from £150,000.00 to £2,500,000.00
+       Contract values that we would be happy to undertake range from £100,000.00 to £2,500,000.00
       </div>
 
       <Image
