@@ -38,7 +38,7 @@ export default function Contact() {
           WHATSAPP
         </Link>
       </div>
-      <div className={styles.heroBtnDesktop}>07889 029 855</div>
+      <div className={styles.heroBtnDesktop}>0207 252 9380</div>
     </div>
   )
 }

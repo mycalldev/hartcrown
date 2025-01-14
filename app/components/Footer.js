@@ -30,7 +30,7 @@ export default function Footer() {
           src={'/accreditations/acc4.png'}
           width={600}
           height={600}
-          alt={'About us'}
+          alt={'Silver'}
           quality={100}
         />
         <Image

@@ -38,6 +38,10 @@
   color: #383838;
 }
 
+.introText span {
+  font-weight: 600;
+}
+
 .tagLineCurrent {
   margin-bottom: 20px;
   padding: 20px;
@@ -68,7 +72,8 @@
 
 
 /* CTA BUTTONS */
-.contactBTNContainer {
+.contactBTNContainerMobile {
+  display: block;
   margin: 10px auto;
   padding: 10px;
   max-width: 200px;
@@ -77,6 +82,22 @@
   text-align: center;
   border-radius: 22px;
   background: #243b8e;
+}
+
+.contactBTNContainerView {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 200px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 22px;
+  background: #243b8e;
+}
+
+.contactBTNContainerDesktop {
+  display: none;
 }
 
 
@@ -101,5 +122,21 @@
    display: block;
    margin: 60px auto 30px auto;
    width: 60%; 
+  }
+
+  .contactBTNContainerDesktop {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 200px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 22px;
+    background: #243b8e;
+  }
+
+  .contactBTNContainerMobile {
+    display: none;
   }
 }

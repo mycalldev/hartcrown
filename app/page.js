@@ -28,11 +28,14 @@ export default function Home() {
         alt={'hero image desktop'}
         quality={100}
       />
-      <div className={styles.introText}>Hartcrown Ltd build more than structures. We build lasting relationships with our clients through integrity, transparency, and superior workmanship.</div>
+      <div className={styles.introText}>Hartcrown Ltd was <span>Established in 1991</span>. We build lasting relationships with our clients through integrity, transparency, and superior workmanship.</div>
       
       {/* CTA */}
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerMobile}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
+      </div>
+      <div className={styles.contactBTNContainerDesktop}>
+          <Link href={'#'} className={styles.linkBTN}>0207 252 9380</Link>
       </div>
       
       <div className={styles.tagLineTop}>Groundwork Specialists with over 35 Years Experience</div>
@@ -54,7 +57,7 @@ export default function Home() {
         Find out about Hartcrown Ltd
       </div>
 
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerView}>
           <Link href="/about" className={styles.linkBTN}>About</Link>
       </div>
 
@@ -74,7 +77,7 @@ export default function Home() {
       <div className={styles.tagLine}>
         View our Current Projects 
       </div>
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerView}>
           <Link href="/current" className={styles.linkBTN}>View</Link>
       </div>
 
@@ -92,7 +95,7 @@ export default function Home() {
       <div className={styles.tagLine}>
         View our Previous Projects 
       </div>
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerView}>
           <Link href="/previous" className={styles.linkBTN}>View</Link>
       </div>
 
@@ -110,7 +113,7 @@ export default function Home() {
       <div className={styles.tagLine}>
         Who we Sponsor
       </div>
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerView}>
           <Link href="/sponsorship" className={styles.linkBTN}>View</Link>
       </div>
 
@@ -128,7 +131,7 @@ export default function Home() {
       <div className={styles.tagLine}>
         Visit our Contact Page
       </div>
-      <div className={styles.contactBTNContainer}>
+      <div className={styles.contactBTNContainerView}>
           <Link href="/contact" className={styles.linkBTN}>Contact</Link>
       </div>
 
