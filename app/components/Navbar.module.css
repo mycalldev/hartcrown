@@ -108,15 +108,8 @@
     }
   
     .containerGrid {
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        justify-content: space-around;
-        align-items: center;
-        background: #fff;
-        padding: 20px;
-    }
+      display: none;
+    } 
   
     .navContainerGrid {
       background: #eee;
