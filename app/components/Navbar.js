@@ -36,7 +36,6 @@ export default function Navbar() {
           </div>
 
           <div className={styles.containerLogo}>
-            <Link href="tel:07754987116">
               <Image
                 src={'/HartCrown_Logo_Edited.jpg'}
                 width={236}
@@ -45,7 +44,6 @@ export default function Navbar() {
                 quality={100}
                 className={styles.logo}
               />
-            </Link>
           </div>
         </div>
       </div>
@@ -91,9 +89,12 @@ export default function Navbar() {
 
 
           {/* DESKTOP NAV */}
+
           <Link href="/#" className={styles.undreline}>
             <div className={styles.titleMainDesktop}>HARTCROWN LTD</div>
           </Link>
+          
+          
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>
                 <Link href={'/'} className={styles.linkBTN} prefetch={true}>
