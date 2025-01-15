@@ -21,6 +21,11 @@
     height: auto;
   }
 
+  .containerMapImage {
+    width: 100%;
+    margin: auto;
+  }
+
   .headerTitle {
     margin: 20px 40px 40px 40px;
     color: #141414;
@@ -80,8 +85,6 @@
       width: 60%;
       margin: auto;
     }
-    .mapImage {
-     
-    }
+    
   }
   
