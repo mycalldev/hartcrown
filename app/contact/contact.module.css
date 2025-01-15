@@ -4,6 +4,16 @@
     color: #fff;
   }
 
+  .tagLine {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: beige;
+    color: #383838;
+  }
+
   .heroBtn {
     margin: 40px auto;
     padding: 10px;
@@ -24,15 +34,6 @@
   .mapImage {
     width: 100%;
     height: auto;
-  }
-
-  .headerTitle {
-    margin: 20px 40px 40px 40px;
-    color: #141414;
-    letter-spacing: 3px;
-    font-weight: 600;
-    font-size: 1.5rem;
-    text-align: center;
   }
 
   .heroBtnDesktop {

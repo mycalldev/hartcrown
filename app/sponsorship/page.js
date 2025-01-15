@@ -8,7 +8,9 @@ export default function Sponsership() {
     <div>
       {/* <Meta /> */}
       <div>
-        <h1 className={styles.headerTitle}>HARTCROWN LTD SPONSORSHIP</h1>
+        <h1 className={styles.tagLine}>
+          Sponsorship
+        </h1>
       </div>
 
       <Image

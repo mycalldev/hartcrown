@@ -8,7 +8,9 @@ export default function Contact() {
     <div>
       {/* <Meta /> */}
       <div>
-        <h1 className={styles.headerTitle}>HARTCROWN LTD CONTACT</h1>
+        <h1 className={styles.tagLine}>
+          Contact
+        </h1>
       </div>
 
       <Image
