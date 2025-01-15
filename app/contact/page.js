@@ -39,6 +39,16 @@ export default function Contact() {
         </Link>
       </div>
       <div className={styles.heroBtnDesktop}>0207 252 9380</div>
+      <div className={styles.containerMapImage}>
+        <Image
+            className={styles.mapImage}
+            src={'/map_hartcrown.png'}
+            width={860}
+            height={835}
+            alt={'map of areas covered'}
+            quality={100}
+        />
+      </div>
     </div>
   )
 }

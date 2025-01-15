@@ -94,7 +94,6 @@ export default function Navbar() {
             <div className={styles.titleMainDesktop}>HARTCROWN LTD</div>
           </Link>
           
-          
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>
                 <Link href={'/'} className={styles.linkBTN} prefetch={true}>

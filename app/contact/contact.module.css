@@ -75,5 +75,13 @@
       font-size: 1.3rem;
       line-height: 1.5;
     }
+
+    .containerMapImage {
+      width: 60%;
+      margin: auto;
+    }
+    .mapImage {
+     
+    }
   }
   
