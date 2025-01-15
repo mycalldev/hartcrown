@@ -72,7 +72,7 @@ export default function Navbar() {
                     <li className={styles.listItem}>Current Projects</li>
                   </div>
                 </Link>
-                <Link href={'/sponsership'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/sponsorship'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Sponsorship</li>
                   </div>
@@ -92,7 +92,7 @@ export default function Navbar() {
 
           {/* DESKTOP NAV */}
           <Link href="/#" className={styles.undreline}>
-            <div className={styles.titleMainDesktop}>HARTCROWN CONSTRUCTION</div>
+            <div className={styles.titleMainDesktop}>HARTCROWN LTD</div>
           </Link>
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>
@@ -116,7 +116,7 @@ export default function Navbar() {
                       <li className={styles.listItem}>Current Projects</li>
                     </div>
                   </Link>
-                  <Link href={'/sponsership'} className={styles.linkBTN} prefetch={true}>
+                  <Link href={'/sponsorship'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Sponsorship</li>
                     </div>

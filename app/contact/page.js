@@ -32,7 +32,7 @@ export default function Contact() {
       </div>
       <div className={styles.heroBtn}>
         <Link
-          href={"https://wa.me/447889029855?text=Hi%20Hartcrown%20Ltd...."} 
+          href={"https://wa.me/447703522523?text=Hi%20Hartcrown%20Ltd...."} 
           className={styles.linkBTN}
         >
           WHATSAPP

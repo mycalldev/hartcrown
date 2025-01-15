@@ -42,7 +42,7 @@ export default function Previous() {
       <div className={styles.introText}>Check out our list of Previous Projects</div>
      
       {/* TONBRIDGE STATION */}
-
+      <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
         <div className={styles.titleMainPrevious}>Tonbridge Station MDU</div>
         <Swiper
@@ -88,9 +88,10 @@ export default function Previous() {
           </div>
         </div>
       </div>
+      </div>
 
       {/* SWANLEY MDU */}
-
+      <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
         <div className={styles.titleMainPrevious}>Swanley MDU</div>
         <Swiper
@@ -136,9 +137,10 @@ export default function Previous() {
           </div>
         </div>
       </div>
+      </div>
 
       {/* CORK STREET */}
-
+      <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
         <div className={styles.titleMainPrevious}>Cork Street</div>
         <Swiper
@@ -183,6 +185,7 @@ export default function Previous() {
             <div className={styles.value}>2019</div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* GEORGE SHOPPING */}
@@ -419,6 +422,8 @@ export default function Previous() {
       <div className={styles.contactBTNContainer}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
+      <div className={styles.heroBtnDesktop}>0207 252 9380</div>
+
 
     </main>
   )

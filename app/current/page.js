@@ -155,6 +155,7 @@ export default function Current() {
       <div className={styles.contactBTNContainer}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
+      <div className={styles.heroBtnDesktop}>0207 252 9380</div>
 
     </main>
   )
