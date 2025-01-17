@@ -97,6 +97,11 @@
     display: none;
   }
 
+  .containerMain {
+   border: 20px solid #00357a;
+   margin: 40px 100px;
+  } 
+
   .heroBtnDesktop {
     display: block;
     margin: 10px auto;

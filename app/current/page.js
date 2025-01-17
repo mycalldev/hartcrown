@@ -10,21 +10,20 @@ export default function Current() {
       <h1 className={styles.tagLineCurrent}>
         Current Projects
       </h1>
-      <div className={styles.introText}>Check out our list of current projects</div>
+      <div className={styles.introText}>Check out our list of Current Projects</div>
      
     {/* HERO SECTION */}
       {/* MOBILE HERO */}
+      <div className={styles.contianerMain}> 
       <div className={styles.containerProject}>
-        <div className={styles.containerHero}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Current/Manbre_Wharf.PNG'}
             width={1024}
             height={800}
-            alt={'Hero Image for Current'}
+            alt={'Image Current'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -38,7 +37,7 @@ export default function Current() {
 
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Value:</div>
-            <div className={styles.value}>£150,000</div>
+            <div className={styles.value}>£400,000</div>
           </div>
 
           <div className={styles.containerTextProject}>
@@ -49,7 +48,6 @@ export default function Current() {
       </div>
 
       <div className={styles.containerProject}>
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Current/Marleb.PNG'}
@@ -58,7 +56,6 @@ export default function Current() {
             alt={'Current Image'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -83,7 +80,6 @@ export default function Current() {
       </div>
 
       <div className={styles.containerProject}>
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Current/Bamfords.PNG'}
@@ -92,8 +88,6 @@ export default function Current() {
             alt={'Current Image'}
             quality={100}
           />
-        </div>
-
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -118,7 +112,6 @@ export default function Current() {
       </div>
 
       <div className={styles.containerProject}>
-      <div className={styles.containerAboutUs}>
         <Image
           className={styles.heroImageMobile}
           src={'/work_images/Current/Park_street.PNG'}
@@ -127,8 +120,6 @@ export default function Current() {
           alt={'Current Image'}
           quality={100}
         />
-      </div>
-
       <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -151,6 +142,8 @@ export default function Current() {
           </div>
         </div>
       </div>
+      </div>
+      
 
       <div className={styles.contactBTNContainer}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>

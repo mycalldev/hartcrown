@@ -89,10 +89,34 @@ export default function Navbar() {
 
 
           {/* DESKTOP NAV */}
+          <div className={styles.containerDesktop}> 
+            <div className={styles.telGrid}>
+              <Image
+                    src={'/phone-call.png'}
+                    width={32}
+                    height={32}
+                    className={styles.imageBurger}
+                    alt={'menu bar'}
+                    quality={100}
+                  />
+             <div className={styles.headerEmail}>0207 252 9380</div>
+            </div>
+            <Link href="/#" className={styles.undreline}>
+              <div className={styles.titleMainDesktop}>HARTCROWN LTD</div>
+            </Link>
 
-          <Link href="/#" className={styles.undreline}>
-            <div className={styles.titleMainDesktop}>HARTCROWN LTD</div>
-          </Link>
+            <div className={styles.containerLogo}>
+                <Image
+                  src={'/HartCrown_Logo_Edited.jpg'}
+                  width={118}
+                  height={83.5}
+                  alt={'logo'}
+                  quality={100}
+                  className={styles.logo}
+                />
+            </div>
+          </div>
+          
           
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>

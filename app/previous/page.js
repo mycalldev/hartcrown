@@ -42,6 +42,7 @@ export default function Previous() {
       <div className={styles.introText}>Check out our list of Previous Projects</div>
      
       {/* TONBRIDGE STATION */}
+      <div className={styles.containerMain}>
       <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
         <div className={styles.titleMainPrevious}>Tonbridge Station MDU</div>
@@ -192,8 +193,6 @@ export default function Previous() {
 
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>George Shopping Centre</div>
-
-        <div className={styles.containerHero}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/george_shopping.png'}
@@ -202,7 +201,6 @@ export default function Previous() {
             alt={'George Shopping'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -230,8 +228,6 @@ export default function Previous() {
       
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Royal College of Arts</div>
-
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/royal_college_art.png'}
@@ -240,7 +236,6 @@ export default function Previous() {
             alt={'Royal College Art'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -268,8 +263,6 @@ export default function Previous() {
       
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>KAO Park Harlow</div>
-
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/kao_park.png'}
@@ -278,7 +271,6 @@ export default function Previous() {
             alt={'KAO Park Harlow'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -307,8 +299,6 @@ export default function Previous() {
       
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>120 Moorgate</div>
-
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/moorgate120.png'}
@@ -317,7 +307,6 @@ export default function Previous() {
             alt={'120 Moorgate'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -346,8 +335,6 @@ export default function Previous() {
             
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Eastcheap</div>
-
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/east_cheap.png'}
@@ -356,7 +343,6 @@ export default function Previous() {
             alt={'Eastcheap'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -384,8 +370,6 @@ export default function Previous() {
       
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Space Woking</div>
-
-        <div className={styles.containerAboutUs}>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/space_woking.png'}
@@ -394,7 +378,6 @@ export default function Previous() {
             alt={'Space Woking'}
             quality={100}
           />
-        </div>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -403,7 +386,7 @@ export default function Previous() {
 
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Project:</div>
-            <div className={styles.value}>KAO Park Harlow</div>
+            <div className={styles.value}>Space Woking</div>
           </div>
 
           <div className={styles.containerTextProject}>
@@ -417,7 +400,7 @@ export default function Previous() {
           </div>
         </div>
       </div>
-
+      </div>
 
       <div className={styles.contactBTNContainer}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>

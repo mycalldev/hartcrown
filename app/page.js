@@ -12,9 +12,9 @@ export default function Home() {
       {/* MOBILE HERO */}
       <Image
         className={styles.heroImageMobile}
-        src={'/hero_image_new_build-transformed.jpeg'}
-        width={2912}
-        height={1632}
+        src={'/hartcrown_hero.jpg'}
+        width={1500}
+        height={1020}
         alt={'hero image'}
         quality={100}
       />
@@ -22,9 +22,9 @@ export default function Home() {
       {/* DESKTOP HERO */}
       <Image
         className={styles.heroImageDesktop}
-        src={'/hero_image_new_build-desktop.jpeg'}
-        width={2912}
-        height={1047}
+        src={'/hartcrown_hero_desktop.jpg'}
+        width={1492}
+        height={630}
         alt={'hero image desktop'}
         quality={100}
       />

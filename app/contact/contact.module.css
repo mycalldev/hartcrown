@@ -48,6 +48,27 @@
     color: #575757;
   }
 
+  .containerContact {
+    width: 70%;
+    margin: 40px auto;
+  }
+
+  .contactInfoKey {
+    margin-bottom: 5px;
+    color: #262626;
+    font-size: 1.1rem;
+  }
+
+  .contactInfo {
+    margin-bottom: 5px;
+    color: #575757;
+    font-size: 1.1rem;
+  }
+
+  .spaceBetween {
+    height: 20px;
+  }
+
   @media (min-width: 768px) {
 
     .heroBtnDesktop{

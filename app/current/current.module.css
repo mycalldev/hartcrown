@@ -90,8 +90,17 @@
     color: #fff;
   }
 
+  .contianerMain {
+    border: 20px solid #00357a;
+    margin: 40px 100px;
+  }
+
   .containerProject {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
+  }
+
+  .heroBtnDesktop {
+    margin-top: 20px;
   }
 }

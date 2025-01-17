@@ -139,4 +139,9 @@
   .contactBTNContainerMobile {
     display: none;
   }
+
+  .introText {
+    width: 60%;
+    margin: 40px auto;
+  }
 }
