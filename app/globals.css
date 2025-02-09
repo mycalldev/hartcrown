@@ -1,8 +1,18 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  object-fit: contain; /* Ensures image is fully visible */
+  max-width: 100%; /* Adjust width to fit container */
+  max-height: 100%; /* Adjust height to fit container */
 }
 
