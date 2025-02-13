@@ -105,7 +105,7 @@ export default function Previous() {
 
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Project:</div>
-            <div className={styles.value}>University of Greenwich Stockweel Street</div>
+            <div className={styles.value}>University of Greenwich Stockwell Street</div>
           </div>
 
           <div className={styles.containerTextProject}>
@@ -403,7 +403,7 @@ export default function Previous() {
       {/* GEORGE SHOPPING */}
 
       <div className={styles.containerProject}>
-      <div className={styles.titleMainPrevious}>George Shopping Centre</div>
+      <div className={styles.titleMainPrevious}>St George's Shopping Centre</div>
           <Image
             className={styles.heroImageMobile}
             src={'/work_images/Previous/george_shopping.png'}
@@ -420,7 +420,7 @@ export default function Previous() {
 
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Project:</div>
-            <div className={styles.value}>St Georges shopping centre Gravesend</div>
+            <div className={styles.value}>St George's shopping centre Gravesend</div>
           </div>
 
           <div className={styles.containerTextProject}>
