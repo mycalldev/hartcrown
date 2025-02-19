@@ -195,7 +195,7 @@ const scrollToTop = () => {
       <div className={styles.titleMainSmall}>Islington Town Hall</div>
           <Image
             className={styles.heroImageMobile}
-            src={'/work_images/Small_works/Islington_town.jpg'}
+            src={'/work_images/Small_works/islington_town.jpg'}
             width={680}
             height={510}
             alt={'Islington Town Hall'}
