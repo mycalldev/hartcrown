@@ -24,9 +24,9 @@ const imagesWhitechapel = [
     ]
 
 const imagesPiccadilly = [
-    '/work_images/Small_works/Piccadilly/Piccadilly1.jpg',
-    '/work_images/Small_works/Piccadilly/Piccadilly2.jpg',
-    '/work_images/Small_works/Piccadilly/Piccadilly3.jpg',
+    '/work_images/Small_works/Piccadilly/piccadilly1.jpg',
+    '/work_images/Small_works/Piccadilly/piccadilly2.jpg',
+    '/work_images/Small_works/Piccadilly/piccadilly3.jpg',
     ]
 
 const imagesNational = [
