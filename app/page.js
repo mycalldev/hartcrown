@@ -1,9 +1,28 @@
+'use client'
 
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './page.module.css'
+import { useState, useEffect } from 'react'
 
 export default function Home() {
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <main className={styles.main}>
@@ -34,7 +53,7 @@ export default function Home() {
       <div className={styles.contactBTNContainerMobile}>
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
-      <div className={styles.contactBTNContainerDesktop}>
+      <div className={styles.contactBTNContainerDesktopNumber}>
           <Link href={'#'} className={styles.linkBTN}>0207 252 9380</Link>
       </div>
       
@@ -135,7 +154,15 @@ export default function Home() {
           <Link href="/contact" className={styles.linkBTN}>Contact</Link>
       </div>
 
-      
+      {showScrollTop && (
+        <button 
+          onClick={scrollToTop}
+          className={styles.scrollTopButton}
+          aria-label="Scroll to top"
+        >
+          ↑
+        </button>
+      )}
 
     </main>
   )

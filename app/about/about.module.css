@@ -73,6 +73,19 @@
   
   
   /* CTA BUTTONS */
+
+  .contactBTNContainerMobile {
+    display: block;
+    margin: 10px auto 30px auto;
+    padding: 10px;
+    max-width: 200px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 22px;
+    background: #243b8e;
+  }
+
   .contactBTNContainer {
     margin: 10px auto;
     padding: 10px;
@@ -83,10 +96,42 @@
     border-radius: 22px;
     background: #243b8e;
   }
+
+  .contactBTNContainerDesktop {
+    display: none;
+  }
+  
+  .contactBTNContainerDesktopNumber {
+    display: none;
+  } 
   
   
   @media(min-width: 768px) {
 
+    .contactBTNContainerDesktop {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      max-width: 200px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      border-radius: 22px;
+      background: #243b8e;
+    }
+  
+    .contactBTNContainerDesktopNumber {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      max-width: 220px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      border-radius: 22px;
+      background: #243b8e;
+    }
+  
     .heroImageMobile {
         padding: 40px;
     }
@@ -115,5 +160,9 @@
 
     .contactBTNContainer {
         display: none;
+    }
+
+    .contactBTNContainerMobile {
+      display: none;
     }
   }

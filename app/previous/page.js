@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './previous.module.css'
+import { useState, useEffect } from 'react'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
@@ -41,6 +42,25 @@ export default function Previous() {
     '/work_images/Previous/london_bridge/image4.jpg',
     '/work_images/Previous/london_bridge/image5.jpg',
   ]
+
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show button when page is scrolled more than 300px
+      setShowScrollTop(window.scrollY > 300)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <main className={styles.main}>
@@ -521,7 +541,7 @@ export default function Previous() {
                 <Image
                   src={item}
                   width={481}
-                  height={640}
+                  height={440}
                   alt={`tonbridge station images`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -640,7 +660,7 @@ export default function Previous() {
                 <Image
                   src={item}
                   width={640}
-                  height={481}
+                  height={281}
                   alt={`swanley images`}
                   quality={100}
                   className={styles.imageSwanley}
@@ -688,11 +708,11 @@ export default function Previous() {
               <SwiperSlide className={styles.swiperSlide} key={index}>
                 <Image
                   src={item}
-                  width={1170}
-                  height={878}
+                  width={670}
+                  height={278}
                   alt={`london bridge`}
                   quality={100}
-                  className={styles.imageSwanley}
+                  className={styles.swiperImage}
                 />
               </SwiperSlide>
             ))}
@@ -840,7 +860,7 @@ export default function Previous() {
                 <Image
                   src={item}
                   width={481}
-                  height={640}
+                  height={440}
                   alt={`cork street images`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -914,6 +934,15 @@ export default function Previous() {
       </div>
       <div className={styles.heroBtnDesktop}>0207 252 9380</div>
 
+      {showScrollTop && (
+        <button 
+          onClick={scrollToTop}
+          className={styles.scrollTopButton}
+          aria-label="Scroll to top"
+        >
+          ↑
+        </button>
+      )}
 
     </main>
   )

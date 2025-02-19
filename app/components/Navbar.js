@@ -77,9 +77,9 @@ export default function Navbar() {
                     <li className={styles.listItem}>Current Projects</li>
                   </div>
                 </Link>
-                <Link href={'/sponsership`'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/sponsorship'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Sponsership</li>
+                    <li className={styles.listItem}>Sponsorship</li>
                   </div>
                 </Link>
                 <Link href={'/contact'} className={styles.linkBTN} prefetch={true}>

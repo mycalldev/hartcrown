@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -34,6 +35,23 @@ const imagesNational = [
     '/work_images/Small_works/National_Theatre/NATIONAL3.jpg',
     ]
 
+const [showScrollTop, setShowScrollTop] = useState(false)
+
+useEffect(() => {
+    const handleScroll = () => {
+        setShowScrollTop(window.scrollY > 300)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+}, [])
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
 
   return (
     <main className={styles.main}>
@@ -139,7 +157,7 @@ const imagesNational = [
                 <Image
                   src={item}
                   width={481}
-                  height={452}
+                  height={252}
                   alt={`Darent Valley Hospital images`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -222,7 +240,7 @@ const imagesNational = [
                 <Image
                   src={item}
                   width={486}
-                  height={640}
+                  height={440}
                   alt={`S278 works whitechapel road`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -305,7 +323,7 @@ const imagesNational = [
                 <Image
                   src={item}
                   width={485}
-                  height={640}
+                  height={440}
                   alt={`Piccadilly Lights/Shafstbury Avenue`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -354,7 +372,7 @@ const imagesNational = [
                 <Image
                   src={item}
                   width={489}
-                  height={640}
+                  height={440}
                   alt={`National Theatre South Bank`}
                   quality={100}
                   className={styles.imageTonbridge}
@@ -392,6 +410,16 @@ const imagesNational = [
           <Link href="tel:02072529380" className={styles.linkBTN}>Contact</Link>
       </div>
       <div className={styles.heroBtnDesktop}>0207 252 9380</div>
+
+      {showScrollTop && (
+        <button 
+          onClick={scrollToTop}
+          className={styles.scrollTopButton}
+          aria-label="Scroll to top"
+        >
+          ↑
+        </button>
+      )}
     </main>
   )
 }
