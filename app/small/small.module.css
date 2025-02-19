@@ -2,7 +2,7 @@
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
-  }
+}
 
 /* CTA BUTTONS */
 .contactBTNContainer {
@@ -21,7 +21,7 @@
   display: none;
 }
 
-.tagLinePrevious {
+.tagLineSmall {
     margin-bottom: 20px;
     padding: 20px;
     text-align: center;
@@ -31,24 +31,18 @@
     color: #383838;
 }
 
-.containerSwiper {
-  margin: 0;
-  padding: 20px;
-  border: 1px solid lightgrey; 
-}
-
-.titleMainPrevious {
+.titleMainSmall {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 10px auto 30px auto;
 }
 
-.titleMainPreviousSwiper {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 20px auto 0px auto;
+.titleMainSmallSwiper {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px auto 0px auto;
 }
 
 .containerProject {
@@ -64,10 +58,10 @@
 
 .introText {
   width: 80%;
-  margin: 50px auto;
+  margin: 30px auto;
   font-size: 1.1rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: start;
   color: #323232;
 }
 
@@ -75,7 +69,7 @@
   margin: 20px auto 30px auto;
 }
 
-.key{
+.key {
   font-size: 1.1rem;
   font-weight: 600;
   color: #292929;
@@ -93,9 +87,31 @@
   grid-template-columns: 30% 70%;
 }
 
+.projectsList {
+  padding: 20px 40px;
+}
+
+.projectsList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projectsList li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  color: #323232;
+  position: relative;
+  padding-left: 20px;
+}
+
+.projectsList li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #243b8e;
+}
 
 @media(min-width: 768px) {
-
   .containerProject {
     width: 60%;
     margin: 20px auto;
@@ -106,8 +122,8 @@
   }
 
   .containerMain {
-   border: 20px solid #00357a;
-   margin: 40px 100px;
+    border: 20px solid #00357a;
+    margin: 40px 100px;
   } 
 
   .heroBtnDesktop {
@@ -123,3 +139,4 @@
     color: #fff;
   }
 }
+

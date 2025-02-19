@@ -508,7 +508,7 @@ export default function Previous() {
       {/* TONBRIDGE STATION */}
       <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
-        <div className={styles.titleMainPrevious}>Tonbridge Station MDU</div>
+        <div className={styles.titleMainPreviousSwiper}>Tonbridge Station MDU</div>
         <Swiper
           pagination={true}
           navigation={true}
@@ -627,7 +627,7 @@ export default function Previous() {
       {/* SWANLEY MDU */}
       <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
-        <div className={styles.titleMainPrevious}>Swanley MDU</div>
+        <div className={styles.titleMainPreviousSwiper}>Swanley MDU</div>
         <Swiper
           pagination={true}
           navigation={true}
@@ -676,7 +676,7 @@ export default function Previous() {
       {/* LONDON BRIDGE RETAIL ARCH */}
       <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
-        <div className={styles.titleMainPrevious}>London Bridge Retail Arch</div>
+        <div className={styles.titleMainPreviousSwiper}>London Bridge Retail Arch</div>
         <Swiper
           pagination={true}
           navigation={true}
@@ -723,7 +723,6 @@ export default function Previous() {
       </div>
 
       {/* LIVERPOOL STREET STATION */}
-
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Liverpool Street Station</div>
           <Image
@@ -758,7 +757,6 @@ export default function Previous() {
       </div>
 
       {/* AURORA COURT */}
-
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Aurora Court</div>
           <Image
@@ -793,7 +791,6 @@ export default function Previous() {
       </div>
 
       {/* WARREN ROAD - ROUPELL APARTMENTS*/}
-
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Warren Road - Roupell Apartments</div>
           <Image
@@ -830,7 +827,7 @@ export default function Previous() {
       {/* CORK STREET */}
       <div className={styles.containerProject}>
       <div className={styles.containerSwiper}>
-        <div className={styles.titleMainPrevious}>Cork Street</div>
+        <div className={styles.titleMainPreviousSwiper}>Cork Street</div>
         <Swiper
           pagination={true}
           navigation={true}
@@ -877,7 +874,6 @@ export default function Previous() {
       </div>
 
       {/* ROYAL COLLEGE OF ART */}
-      
       <div className={styles.containerProject}>
       <div className={styles.titleMainPrevious}>Royal College of Arts</div>
           <Image

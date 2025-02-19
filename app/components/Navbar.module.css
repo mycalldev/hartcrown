@@ -94,6 +94,22 @@
     cursor: pointer;
   }
   
+  .telGrid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .telGrid:hover {
+    transform: scale(1.05);
+  }
+  
+  .headerEmail {
+    font-weight: 600;
+    color: #323232;
+  }
+  
   @media(min-width: 768px) {
   
     .navContainer {
@@ -145,7 +161,7 @@
     .navDesktopGrid {
       margin: 0 10px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       justify-items: center;
       align-items: center;
     } 

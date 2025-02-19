@@ -36,6 +36,7 @@ export default function Navbar() {
           </div>
 
           <div className={styles.containerLogo}>
+            <Link href="tel:07754987116">
               <Image
                 src={'/HartCrown_Logo_Edited.jpg'}
                 width={236}
@@ -44,6 +45,7 @@ export default function Navbar() {
                 quality={100}
                 className={styles.logo}
               />
+            </Link>
           </div>
         </div>
       </div>
@@ -60,6 +62,11 @@ export default function Navbar() {
                     <li className={styles.listItem}>About</li>
                   </div>
                 </Link>
+                <Link href={'/small'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Small Works</li>
+                  </div>
+                </Link>
                 <Link href={'/previous'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Previous Projects</li>
@@ -70,9 +77,9 @@ export default function Navbar() {
                     <li className={styles.listItem}>Current Projects</li>
                   </div>
                 </Link>
-                <Link href={'/sponsorship'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/sponsership`'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Sponsorship</li>
+                    <li className={styles.listItem}>Sponsership</li>
                   </div>
                 </Link>
                 <Link href={'/contact'} className={styles.linkBTN} prefetch={true}>
@@ -117,42 +124,45 @@ export default function Navbar() {
             </div>
           </div>
           
-          
-            <nav className={styles.navContainerGrid}>
-              <ul className={styles.navDesktopGrid}>
-                <Link href={'/'} className={styles.linkBTN} prefetch={true}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Home</li>
-                    </div>
+          <nav className={styles.navContainerGrid}>
+            <ul className={styles.navDesktopGrid}>
+              <Link href={'/'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Home</li>
+                  </div>
+              </Link>
+              <Link href={'/about'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>About</li>
+                  </div>
+              </Link>
+              <Link href={'/small'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Small Works</li>
+                  </div>
+              </Link>
+              <Link href={'/previous'} className={styles.linkBTN}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Previous Projects</li>
+                  </div>
                 </Link>
-                <Link href={'/about'} className={styles.linkBTN} prefetch={true}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>About</li>
-                    </div>
+              <Link href={'/current'} className={styles.linkBTN}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Current Projects</li>
+                  </div>
                 </Link>
-                <Link href={'/previous'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Previous Projects</li>
-                    </div>
-                  </Link>
-                  <Link href={'/current'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Current Projects</li>
-                    </div>
-                  </Link>
-                  <Link href={'/sponsorship'} className={styles.linkBTN} prefetch={true}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Sponsorship</li>
-                    </div>
-                  </Link>
-                  <Link href={'/contact'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Contact</li>
-                    </div>
-                  </Link>
-              </ul>
-            </nav>
-      
+                <Link href={'/sponsorship'} className={styles.linkBTN}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Sponsorship</li>
+                  </div>
+                </Link>
+                <Link href={'/contact'} className={styles.linkBTN}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Contact</li>
+                  </div>
+                </Link>
+            </ul>
+          </nav>
     </main>
   )
 }
