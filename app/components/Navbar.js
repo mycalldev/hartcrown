@@ -63,7 +63,7 @@ export default function Navbar() {
                   </div>
                 </Link>
                 <Link href={'/small'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer}>
+                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Small Works</li>
                   </div>
                 </Link>
