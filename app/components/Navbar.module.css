@@ -176,6 +176,12 @@
       font-weight: 700;
       list-style-type: none;
     }
+
+    .headerEmail {
+      font-weight: 600;
+      color: #323232;
+      margin-left: 20px;
+    }
   }
   
   @media(min-width: 1024px) {

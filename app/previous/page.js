@@ -708,8 +708,8 @@ export default function Previous() {
               <SwiperSlide className={styles.swiperSlide} key={index}>
                 <Image
                   src={item}
-                  width={670}
-                  height={278}
+                  width={1170}
+                  height={878}
                   alt={`london bridge`}
                   quality={100}
                   className={styles.swiperImage}
