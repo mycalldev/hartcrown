@@ -252,7 +252,7 @@ const scrollToTop = () => {
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
-            <div className={styles.value}>Bamfords</div>
+            <div className={styles.value}>Bamfords Trust</div>
           </div>
 
           <div className={styles.containerTextProject}>
@@ -287,7 +287,7 @@ const scrollToTop = () => {
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
-            <div className={styles.value}>Scorpion</div>
+            <div className={styles.value}>Scorpio Interiors</div>
           </div>
 
           <div className={styles.containerTextProject}>

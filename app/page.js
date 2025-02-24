@@ -118,6 +118,25 @@ export default function Home() {
           <Link href="/previous" className={styles.linkBTN}>View</Link>
       </div>
 
+      {/* Small Works Division */}
+      <div className={styles.containerCurrentProjects}>
+        <Image
+          className={styles.aboutUs}
+          src={'/work_images/Small_works/islington_town.jpg'}
+          width={680}
+          height={510}
+          alt={'Small Works Division'}
+          quality={100}
+        />
+      </div>
+
+      <div className={styles.tagLine}>
+        Small Works Division 
+      </div>
+      <div className={styles.contactBTNContainerView}>
+          <Link href="/small" className={styles.linkBTN}>View</Link>
+      </div>
+
       <div className={styles.containerPreviousProjects}>
         <Image
           className={styles.aboutUs}
