@@ -927,6 +927,40 @@ export default function Previous() {
         </div>
       </div>
 
+      {/* NEW HOTEL 233-237 OLD MARYLEBONE ROAD */}
+      <div className={styles.containerProject}>
+      <div className={styles.titleMainPrevious}>New Hotel 233-237 Old Marylebone Road</div>
+          <Image
+            className={styles.heroImageMobile}
+            src={'/work_images/Previous/signiture_london.jpg'}
+            width={1024}
+            height={800}
+            alt={'New Hotel'}
+            quality={100}
+          />
+        <div className={styles.containerGrid}>
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Client:</div>
+            <div className={styles.value}>Exclusive Residential Ltd</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Project:</div>
+            <div className={styles.value}>New Hotel 233-237 Old Marylebone Road</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Value:</div>
+            <div className={styles.value}>£90,000</div>
+          </div>
+
+          <div className={styles.containerTextProject}>
+            <div className={styles.key}>Date:</div>
+            <div className={styles.value}>2023</div>
+          </div>
+        </div>
+      </div>
+
       </div>
 
       <div className={styles.contactBTNContainer}>
