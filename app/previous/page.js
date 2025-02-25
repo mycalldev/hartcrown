@@ -67,7 +67,7 @@ export default function Previous() {
       <h1 className={styles.tagLinePrevious}>
         Previous Projects
       </h1>
-      <div className={styles.introText}>Check out our list of Previous Projects</div>
+      <div className={styles.textTitle}>Check out our list of Previous Projects</div>
      
       <div className={styles.containerMain}>
       {/* KAO PARK HARLOW */}

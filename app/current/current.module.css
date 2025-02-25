@@ -33,7 +33,7 @@
 .containerProject {
   margin: 20px;
   padding: 20px;
-  border: 1px solid lightgrey;
+  border: 1px solid #243b8e;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background: white;
@@ -138,6 +138,12 @@
 
 @media(min-width: 768px) {
 
+  .textTitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px;
+  }
+
   .contactBTNContainer {
     display: none;
   }
@@ -191,6 +197,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+
 }
 
 .titleMainCurrent {

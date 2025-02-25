@@ -29,7 +29,7 @@ export default function Current() {
       <h1 className={styles.tagLineCurrent}>
         Current Projects
       </h1>
-      <div className={styles.introText}>Check out our list of Current Projects</div>
+      <div className={styles.textTitle}>Check out our list of Current Projects</div>
      
     {/* HERO SECTION */}
       {/* MOBILE HERO */}
