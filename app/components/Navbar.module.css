@@ -40,7 +40,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 700;
-    color: #000000;
+    color: #013778;
     cursor: pointer;
   }
   
@@ -123,7 +123,7 @@
       text-align: center;
       text-decoration: none;
       font-weight: 700;
-      color: rgb(57, 57, 57);
+      color: #013778;
       cursor: pointer;
     }
   
@@ -179,7 +179,7 @@
 
     .headerEmail {
       font-weight: 600;
-      color: #323232;
+      color: #013778;
       margin-left: 20px;
     }
   }

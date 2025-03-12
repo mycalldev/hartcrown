@@ -20,7 +20,7 @@ export default function Navbar() {
           
             <div onClick={() => handleToggle()} className={styles.containerBurger}>
               <Image
-                src={'/hamburger.png'}
+                src={'/hamburger_blue.png'}
                 width={32}
                 height={32}
                 className={styles.imageBurger}
@@ -99,7 +99,7 @@ export default function Navbar() {
           <div className={styles.containerDesktop}> 
             <div className={styles.telGrid}>
               <Image
-                    src={'/phone-call.png'}
+                    src={'/phone-call-blue.png'}
                     width={32}
                     height={32}
                     className={styles.imageBurger}
