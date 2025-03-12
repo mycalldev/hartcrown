@@ -43,6 +43,14 @@ export default function Previous() {
     '/work_images/Previous/london_bridge/image5.jpg',
   ]
 
+  const imagesPreviousAparthotel = [
+    '/work_images/Previous/aparthotel/image1.jpg',
+    '/work_images/Previous/aparthotel/image2.jpg',
+    '/work_images/Previous/aparthotel/image3.jpg',
+    '/work_images/Previous/aparthotel/image4.jpg',
+    
+  ]
+
   const [showScrollTop, setShowScrollTop] = useState(false)
 
   useEffect(() => {
@@ -316,17 +324,30 @@ export default function Previous() {
       </div>
 
       {/* APARTHOTEL ADAGIO, WHITECHAPEL */}
-
       <div className={styles.containerProject}>
-      <div className={styles.titleMainPrevious}>Aparthotel Adagio</div>
-          <Image
-            className={styles.heroImageMobile}
-            src={'/work_images/Previous/aparthotel.jpg'}
-            width={768}
-            height={432}
-            alt={'Aparthotel Adagio'}
-            quality={100}
-          />
+      <div className={styles.containerSwiper}>
+        <div className={styles.titleMainPreviousSwiper}>Aparthotel Adagio</div>
+        <Swiper
+          pagination={true}
+          navigation={true}
+          modules={[Pagination, Navigation]}
+          className={styles.swiper}
+        >
+          <div className={styles.swiperWrapper}>
+            {imagesPreviousAparthotel.map((item, index) => (
+              <SwiperSlide className={styles.swiperSlide} key={index}>
+                <Image
+                  src={item}
+                  width={481}
+                  height={440}
+                  alt={`Aparthotel Adagio`}
+                  quality={100}
+                  className={styles.imageTonbridge}
+                />
+              </SwiperSlide>
+            ))}
+          </div>
+        </Swiper>
         <div className={styles.containerGrid}>
           <div className={styles.containerTextProject}>
             <div className={styles.key}>Client:</div>
@@ -348,6 +369,7 @@ export default function Previous() {
             <div className={styles.value}>2024</div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* LADY MARGARET SCHOOL */}
